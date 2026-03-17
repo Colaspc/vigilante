@@ -1,8 +1,9 @@
+
+```powershell
 Stop-ScheduledTask -TaskName "Vigilante_ASIR"
 Start-Sleep -Seconds 3
 PowerShell -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files\Vigilante\vigilante.ps1"
-
-
+```
 # Agente Vigilante ASIR
 
 Agente de monitorización diseñado para ejecutarse en equipos Windows como parte del Proyecto ASIR. Recoge métricas del sistema, tráfico de red, eventos de archivos y capturas de pantalla periódicas, enviándolo todo a la API central del proyecto.
